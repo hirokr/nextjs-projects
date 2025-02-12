@@ -21,6 +21,7 @@ export const addPost = async (previousState, formData) => {
   } catch (error) {
     console.log(error);
     return { msg: "some thing went wrong" };
+    // none
   }
 };
 
